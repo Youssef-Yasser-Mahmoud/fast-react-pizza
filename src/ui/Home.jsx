@@ -3,7 +3,7 @@ import CreateUser from '../features/user/CreateUser';
 import Button from './Button';
 
 function Home() {
-  const userName = useSelector((state) => state.user.userName);
+  const userName = useSelector((state) => state.user.username);
 
   return (
     <div className='my-10 px-4 text-center sm:my-16'>
