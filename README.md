@@ -1,12 +1,79 @@
-# React + Vite
+# Fast React Pizza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern pizza ordering web application built with React, Redux Toolkit, and React Router, styled using Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse a menu of delicious pizzas
+- Add, update, and remove pizzas from your cart
+- Place orders with priority option
+- Search for existing orders by order number
+- Responsive and accessible UI
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://react.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or newer)
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/your-username/fast-react-pizza.git
+cd fast-react-pizza
+```
+
+2. Install dependencies:
+
+```
+npm install
+```
+
+Running the App
+Start the development server:
+
+```
+npm run dev
+```
+
+Open http://localhost:5173 in your browser.
+
+Building for Production
+
+```
+npm run build
+```
+
+Preview Production Build
+
+```
+npm run preview
+```
+
+Project Structure
+
+```
+src/
+  features/
+    cart/         # Cart logic and components
+    menu/         # Menu logic and components
+    order/        # Order logic and components
+    user/         # User logic and components
+  services/       # API service modules
+  ui/             # Shared UI components
+  utils/          # Utility functions
+  [store.js](http://_vscodecontentref_/0)        # Redux store setup
+  [App.jsx](http://_vscodecontentref_/1)         # Main app and routing
+  [main.jsx](http://_vscodecontentref_/2)        # Entry point
+```
