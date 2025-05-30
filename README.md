@@ -2,6 +2,12 @@
 
 A modern pizza ordering web application built with React, Redux Toolkit, and React Router, styled using Tailwind CSS.
 
+## Demo
+
+```
+https://fast-react-pizza-pied-chi.vercel.app/
+```
+
 ## Features
 
 - Browse a menu of delicious pizzas
