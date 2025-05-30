@@ -4,9 +4,7 @@ A modern pizza ordering web application built with React, Redux Toolkit, and Rea
 
 ## Demo
 
-```
 https://fast-react-pizza-pied-chi.vercel.app/
-```
 
 ## Features
 
